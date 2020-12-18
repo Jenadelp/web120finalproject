@@ -1,0 +1,183 @@
+	/* start reCAPTCHA styles */
+		
+		/* writes to small text above reCAPTCHA upon failure */
+		/*.dateFeedback{
+			font-style:italic;
+			font-size:70%;
+			font-weight:bold;
+			color:#f00;
+		}
+        
+         input:required {
+              border: 1px solid red;
+        }
+
+         input:optional, textarea:optional {
+             background-color:#f1f1f1;
+             border:1px solid #ccc;
+        }
+
+        input[type="submit"], input[type="button"] {
+          background-color: #fff;
+          border-radius: 4px;
+          border: solid 1px #ccc;
+          padding: 0.3em 0.5em;
+        
+
+        fieldset {
+          
+          max-width: 350px;
+        }
+
+        legend {
+          margin-left: 0.5em;
+          padding: 0.2em 0.5em;
+          border-left: 1px solid #ccc;
+          border-right: 1px solid #ccc;
+        }*/
+        
+        /* end reCAPTCHA styles */
+
+/*main{
+    width:340px;
+    /*height: 300px;*/
+    /*background: white;
+    float:left;
+    margin-bottom: 50px;
+}*/
+
+/*h1{
+  text-align: center;
+  font-size: 3.5em;
+  color: darkred;
+  font-style: italic;
+  padding-bottom: 20px;
+    
+}*/
+
+h2{
+   /*padding-bottom: 10px;*/
+   color: cadetblue;
+    
+   
+}
+
+h3{
+    padding-bottom: 10px;
+    color: cadetblue;
+    
+}
+
+/*aside{
+    width:580px;
+    height:720px;
+    float:right;
+    margin-bottom:20px;
+    
+}*/
+
+.name{
+    border: solid;
+}
+
+form{
+    max-width:580px;
+   
+}
+
+fieldset{
+    padding:10px;
+    border:1px dotted #888;
+    border-radius:5px;
+}
+
+label{
+    display: block;
+    margin-bottom:5px;
+    border-style:solid;
+    color: cadetblue;
+    
+}
+
+input{
+    width:100%;
+    height:25px;
+    margin-bottom: 10px;
+    border-style: solid;
+}
+
+input[type=radio]{
+    width:auto;
+    height:auto;
+    margin-right:5px;
+    color: grey;
+
+}
+
+input[type=checkbox]{
+    width:auto;
+    height:auto;
+    margin-right:5px;
+    color: grey;
+}
+
+
+input[type=submit]{
+    width:auto;
+}
+
+select{
+    margin-bottom:10px;
+    padding:3px;
+    
+}
+
+option{
+    color: grey;
+    
+}
+
+textarea{
+    width:100%;
+    height:200px;
+    margin-bottom:10px;
+    color: cadetblue;
+    
+}
+
+form ul{
+    margin-left: 15px;
+}
+
+form li{
+    list-style-type: none;
+}
+
+    
+/*you cannot do a margin top on a cleared element*/
+
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+legend{
+    font-size: 1.3em;
+    color:cadetblue;
+    padding:0 5px;
+    font-family: 'roboto';
+}
+
+input[type="submit"], input[type="button"] {
+          background-color: #fff;
+          border-radius: 4px;
+          border: solid 1px #ccc;
+          padding: 0.3em 0.5em;
+          font-family: 'roboto';
+
+
+
+
+

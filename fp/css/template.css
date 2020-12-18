@@ -1,0 +1,405 @@
+/* TEMPLATE WEB120 */
+
+* {
+    margin:0;
+    padding:0;
+    user-select:none;
+}
+
+html,body {
+    
+    font-family:'Roboto';
+    margin: auto;
+}
+
+header a {
+    color:cadetblue;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.banner-home {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display:block;
+    
+}
+
+.wrapper{
+    margin:0 auto 0 auto;
+    width:940px;
+    /*overflow: hidden;*/
+    padding:5px; 
+    margin: auto;
+      
+}
+
+p {
+    margin-left: .1em;
+    margin-right: .1em;
+    font-family: 'roboto';
+    color: cadetblue;
+    font-size: 1.1em;
+    
+}
+
+
+/*div.wrapper,footer {
+    width:90%;
+    margin:auto;
+    /*background-color:whitesmoke;*/
+    /*overflow:auto;*/
+}
+
+section {
+    float:left;
+    width:20%;
+    padding-left:2.5%;
+}
+
+aside {
+    float:right;
+    width:30%;
+    padding-right:4%;
+    height: 30%;
+}
+
+#logo{
+    display:inline-block;
+    
+}
+
+
+#calendar{
+    width:30%;
+    float:right;
+}
+
+h1 {
+    text-align:left;
+    color: cadetblue;
+    padding-top:.5em;
+    /*padding-bottom: .5em;*/
+    padding-right: .5em;
+    padding-left: .5em;
+    font-family: "raleway";
+    font-size: 2.7em;
+    margin-bottom: .2em;
+    
+}
+
+.h2{
+  font-family: 'raleway';
+  color: dimgrey;
+  
+}
+
+h2{
+  font-family: 'raleyway';
+  color: dimgrey;
+  font-size: 3em, grey;
+    
+}
+
+.Contactme {
+    font-family: 'roboto';
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: cadetblue;
+    
+}
+
+.contact{
+    background-color:whitesmoke;
+    border-style: solid, cadetblue;
+    /*margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;*/
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+h4 {
+  font-size:1.1em;
+  font-family:'roboto';   
+  text-align: center;
+  font-weight: lighter;
+  text-align: left;
+  color:cadetblue;
+  margin-left: .7em;
+  padding-left: .7em;
+}
+
+/*#logo{
+    width: 300px;
+    
+}*/
+
+section{
+    margin-bottom: .5em;
+    
+    margin-left: .5em;
+    margin-right: .5em;
+    
+}
+
+
+p {
+    margin:1em .8em;
+    font-size: 1.2em;
+    padding-left: 50px;
+    padding-right:50px;
+    
+}
+
+div.dot iframe {
+    border:0;
+    overflow:hidden;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+
+#table{
+    width:350px;
+    height: 530px;
+    margin: 0 auto;
+    display:block;
+}
+
+
+.services1 {
+    width:100%;
+    
+}
+
+.services1 p{
+    line-height: 1.5em;
+    font-family: 'raleway';
+    font-size: 1.2em;
+    color: grey;
+    padding-left:50px; 
+    padding-right:50px;
+    margin-bottom: .5em;
+    margin-top:0;
+    
+}
+
+ 
+
+/*main{
+    padding-left:100px; 
+    padding-right:100px;
+    line-height: 2em;
+}*/
+
+.services2 li{
+    padding-bottom: 2em;
+  
+}
+
+
+    
+/* START Global Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+} 
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* END Global Embed Responsively Rules! */
+
+
+/* start embed calendar responsively*/
+
+#main-section{
+    width:100%;
+    
+}
+
+
+
+footer {
+    text-align:center;
+    text-transform:uppercase;
+    clear:both;
+}
+
+footer p {
+    padding:2em;
+}
+
+footer a {
+    color:grey;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer a:hover {
+    color:white;
+    background-color:black;
+}
+
+/*hide agenda view of calandar */
+div.embed-container.phone {
+    display:none;
+}
+
+
+
+fieldset{
+    border:none;
+}
+
+section form div{
+    margin-bottom: 10px;
+}
+
+//* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+	
+   main.wrapper {
+		width:80%;
+		margin:auto;
+	}
+
+    section {
+		width:65%;
+		float:left;
+	}
+	
+     aside {	
+		width:34%;
+		float:right;
+	}
+			
+    img.desktop {
+      		float:right;
+       		width:50%;
+            display:inline-block;
+    }
+    
+    img.tablet, img.phone {
+       	display:none;
+    	}  
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        		background-color: #ccc;
+        		color:#000;
+                
+   	 }
+}
+
+.pageID{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+/* TABLET */
+@media all and (min-width:601px) and (max-width: 900px) {
+    .wrapper{
+        width:100%;
+    }
+    
+    .banner-home{
+        width:100%
+    }
+	section {
+		width:60%;
+		float:left;
+	}
+	
+	aside {	
+		width:39%;
+		float:right;
+	}
+	
+    img.tablet {
+       		width:100%;
+            display:inline-block;
+    }
+    
+    img.desktop, img.phone {
+       	display:none;
+    	}  
+    
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #ccc;
+        color:#000;
+    }
+   .topnav a:not(:first-child) {display: none;}		
+  .topnav a.icon {		
+    float: right;		
+    display: block;		
+  }	
+    .topnav.responsive {position: relative;}		
+  .topnav.responsive a.icon {		
+    position: absolute;		
+    right: 0;		
+    top: 0;		
+  }		
+  .topnav.responsive a {		
+    float: none;		
+    display: block;		
+    text-align: left;		
+  }		
+    
+}
+
+
+
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    .wrapper{
+        width:100%;
+        
+    }
+    
+    img.phone {
+       		width:100%;
+            display:inline-block;
+    }
+    
+    img.tablet, img.desktop {
+       	display:none;
+        
+    }
+    .banner-home{
+        width: 100%;
+    }
+    
+    /*.responsive{
+        width:auto;
+    }*/
+}
+
